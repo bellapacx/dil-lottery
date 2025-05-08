@@ -1,7 +1,7 @@
 // src/components/Sidebar.tsx
 import { Home, Package, Users, Ticket, Settings } from 'lucide-react';
 import Link from 'next/link';
-import { cn } from '@/lib/utils'; // helper for classNames (from Shadcn)
+//import { cn } from '@/lib/utils'; // helper for classNames (from Shadcn)
 
 const navItems = [
   { name: 'Dashboard', href: '/', icon: Home },
