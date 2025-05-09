@@ -1,5 +1,5 @@
 // src/components/Sidebar.tsx
-import { Home, Package, Users, Ticket, Settings } from 'lucide-react';
+import { Home, Package, Users, Ticket, Settings, Trophy } from 'lucide-react';
 import Link from 'next/link';
 //import { cn } from '@/lib/utils'; // helper for classNames (from Shadcn)
 
@@ -8,6 +8,7 @@ const navItems = [
   { name: 'Packages', href: '/packages', icon: Package },
   { name: 'Users', href: '/users', icon: Users },
   { name: 'Tickets', href: '/tickets', icon: Ticket },
+  { name: 'Winnings', href: '/winnings', icon: Trophy },
   { name: 'Settings', href: '/settings', icon: Settings },
 ];
 
